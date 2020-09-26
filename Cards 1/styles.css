@@ -1,0 +1,170 @@
+
+body{
+    background: #eae9fe;
+    font-family: 'Karla', sans-serif;
+}
+
+.card1{
+    background: white;
+    max-width: 400px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4f557b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 0 10px 6px -6px rgb(168, 167, 167);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card1 img{
+    width: 25px;
+}
+.header-card1 p {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.card1 ul{
+    margin-left: -50px;
+}
+
+.card1 ul p{
+    font-size: 17px;
+}
+
+.card1 li{
+    list-style: none;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    color:#4f557b;
+}
+
+.button a{
+    color:#4f557b;
+    text-decoration:none;
+}
+
+
+/* CARD 2 */
+
+.card2{
+    background: white;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    box-shadow: 0 10px 6px -6px rgb(168, 167, 167);
+}
+
+.card{
+    margin-top: 30px;
+}
+.card2 hr{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #eae9fe;
+}
+
+.card2 p:nth-child(1){
+    font-size: 12px;
+}
+
+.card2 p:nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* CARD 3 */
+.card3{
+    background: white;
+    max-width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 6px -6px rgb(168, 167, 167);
+}
+.image{
+    height:100px;
+    width:100px;
+    background: white;
+    border-radius:50px;
+    border: 2px solid #eae9fe;
+    margin-top: 33px;
+}
+.card3 img{
+    width: 50px;
+    margin-left: 24px;
+    margin-top: 23px;
+}
+
+.card3 .content p:nth-child(1){
+    font-size: 25px;
+}
+
+.card3 .content p:nth-child(2){
+    margin-top: -10px;
+}
+
+
+
+/* CARD 4 */
+
+.card4{
+    background: #192056;
+    max-width: 400px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    box-shadow: 0 10px 6px -6px rgb(168, 167, 167);
+}
+
+.card4 p:nth-child(1){
+    color:#e0e0e4;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 40px
+}
+
+.card4 .content{
+    display: flex;
+    flex-direction: row;
+}
+
+.card4 .content p{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.card4 .content img{
+    width: 20px;
+    background-image: white;
+}
+
+
+.card4 .filter-green{
+    filter: brightness(0) invert(1);
+    margin-left: 50px;
+    margin-top: -9px;
+}
